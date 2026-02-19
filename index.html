@@ -18,6 +18,63 @@
 
 <body>
 
+  <main class="main-content">
+    <div class="container">
+      <h1 class="calc-title">spli<br>tter</h1>
+
+      <div class="calculator">
+        <!-- LEFT SIDE -->
+        <div class="calculator__form">
+          <!-- Bill -->
+          <div class="calculator__bill">
+            <label class="calculator__label" for="bill">Bill</label>
+            <input class="calculator__input" type="number" id="bill" placeholder="0">
+          </div>
+
+          <!-- Tip -->
+          <div class="calculator__tips">
+            <p class="calculator__label">
+              Select tip %
+            </p>
+            <div class="calculator__tips-buttons">
+              <button class="calculator__tips-btn">5%</button>
+              <button class="calculator__tips-btn">10%</button>
+              <button class="calculator__tips-btn calculator__tips-btn--active">15%</button>
+              <button class="calculator__tips-btn">25%</button>
+              <button class="calculator__tips-btn">50%</button>
+              <button class="calculator__tips-btn">Custom</button>
+            </div>
+          </div>
+
+          <!-- People -->
+          <div class="calculator__people">
+            <label class="calculator__label" for="people">Number of people</label>
+            <input class="calculator__input" type="number">
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="calculator__result">
+          <div class="calculator__result-row">
+            <div class="calculator__result-text">
+              <p class="calculator__result-bold">Tip amount</p>
+              <span>/ person</span>
+            </div>
+            <span class="calculator__result-value">$4.27</span>
+          </div>
+          <div class="calculator__result-row">
+            <div class="calculator__result-text">
+              <p class="calculator__result-bold">Total</p>
+              <span>/ person</span>
+            </div>
+            <span class="calculator__result-value">$32.79</span>
+          </div>
+          <button class="calculator__result-btn">Reset</button>
+        </div>
+        
+      </div>
+    </div>
+  </main>
 
   <script src="js/main.js"></script>
 </body>

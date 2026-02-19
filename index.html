@@ -26,14 +26,14 @@
         <!-- LEFT SIDE -->
         <div class="calculator__form">
           <!-- Bill -->
-          <div class="calculator__bill">
+          <div class="calculator__bill .calculator__field">
             <label class="calculator__label" for="bill">Bill</label>
             <input class="calculator__input" type="number" id="bill" placeholder="0">
           </div>
 
           <!-- Tip -->
           <div class="calculator__tips">
-            <p class="calculator__label">
+            <p class="calculator__label calculator__tips-label">
               Select tip %
             </p>
             <div class="calculator__tips-buttons">
@@ -42,14 +42,14 @@
               <button class="calculator__tips-btn calculator__tips-btn--active">15%</button>
               <button class="calculator__tips-btn">25%</button>
               <button class="calculator__tips-btn">50%</button>
-              <button class="calculator__tips-btn">Custom</button>
+              <button class="calculator__tips-btn calculator__tips-btn--custom">Custom</button>
             </div>
           </div>
 
           <!-- People -->
-          <div class="calculator__people">
+          <div class="calculator__people .calculator__field">
             <label class="calculator__label" for="people">Number of people</label>
-            <input class="calculator__input" type="number">
+            <input class="calculator__input" type="number" id="people">
           </div>
         </div>
 
@@ -71,7 +71,7 @@
           </div>
           <button class="calculator__result-btn">Reset</button>
         </div>
-        
+
       </div>
     </div>
   </main>

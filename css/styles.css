@@ -123,6 +123,7 @@ select:-webkit-autofill:focus {
 .calculator {
 	background-color: var(--white-color);
 	border-radius: 25px;
+  margin-bottom: 2rem;
 }
 .calculator__form {
 	padding: 2rem;

@@ -161,7 +161,7 @@ select:-webkit-autofill:focus {
 	text-align: right;
 }
 
-.calculator__input:hover {
+.calculator__input:hover, .calculator__input:focus {
 	border: 1px solid #26c2ae;
 }
 

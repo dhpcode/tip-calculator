@@ -123,7 +123,7 @@ select:-webkit-autofill:focus {
 .calculator {
 	background-color: var(--white-color);
 	border-radius: 25px;
-  margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 .calculator__form {
 	padding: 2rem;
@@ -175,7 +175,8 @@ select:-webkit-autofill:focus {
 .calculator__tips-btn {
 	padding: 10.2px;
 	border-radius: 5px;
-	width: 146px;
+	flex: 1 1 120px;
+	min-width: 0;
 	border: none;
 	font-size: 1.5rem;
 	font-weight: inherit;
@@ -209,15 +210,15 @@ select:-webkit-autofill:focus {
 	justify-content: space-between;
 }
 .calculator__result-row:first-child {
-  margin-bottom: 1.25rem;
+	margin-bottom: 1.25rem;
 }
 .calculator__result-bold {
-  margin: 0;
+	margin: 0;
 	color: var(--white-color);
 }
 
 .calculator__result-row:nth-child(2) {
-  margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 .calculator__result-text span {
@@ -227,17 +228,17 @@ select:-webkit-autofill:focus {
 .calculator__result-value {
 	font-size: 2rem;
 	color: #26c2ae;
-  letter-spacing: -0.67px;
+	letter-spacing: -0.67px;
 }
 .calculator__result-btn {
-  width: 100%;
-  border: none;
-  padding: 12.5px;
-  border-radius: 5px;
-  background-color: var(--accent-color);
-  color: var(--dark-bg);
-  font-size: 1.25rem;
-  font-weight: inherit;
-  text-transform: uppercase;
-  cursor: pointer;
+	width: 100%;
+	border: none;
+	padding: 12.5px;
+	border-radius: 5px;
+	background-color: var(--accent-color);
+	color: var(--dark-bg);
+	font-size: 1.25rem;
+	font-weight: inherit;
+	text-transform: uppercase;
+	cursor: pointer;
 }

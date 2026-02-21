@@ -121,6 +121,7 @@ select:-webkit-autofill:focus {
 	margin-bottom: 40px;
 }
 .calculator {
+	width: 100%;
 	background-color: var(--white-color);
 	border-radius: 25px;
 	margin-bottom: 2rem;
